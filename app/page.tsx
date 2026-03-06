@@ -1,7 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import  HeroSection  from "@/components/features/Hero";
-import { FeaturesSection } from "@/components/features/FeaturesSection";
+// import { FeaturesSection } from "@/components/features/FeaturesSection";
 import { SupplySection } from "@/components/features/SupplySection";
 import { RoadmapSection } from "@/components/features/RoadmapSection";
 import { ContactSection } from "@/components/features/ContactSection";
