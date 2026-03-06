@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WikaEX – Landing Page Airdrop
+
+> Official landing page for **$WIKA** — a fixed 1B supply blockchain asset with transparent tokenomics and long-term scarcity design.
+
+🌐 **Live:** [landing-page-airdrop.vercel.app](https://landing-page-airdrop.vercel.app)
+
+---
+
+## Overview
+
+WikaEX is a native blockchain project built on a custom Proof-of-Work mainnet. This landing page introduces the $WIKA token, its tokenomics, development roadmap, and community channels — designed to onboard users into the airdrop campaign.
+
+---
+
+## Sections
+
+| Section | Description |
+|---|---|
+| **Hero** | Introduction & primary CTA to claim airdrop |
+| **Supply** | $WIKA tokenomics — 1B fixed supply & distribution breakdown |
+| **Roadmap** | 5-phase development milestones from Mainnet to dApps |
+| **Whitepaper** | Technical & economic documentation across 7 tabs |
+| **Contact** | Community links — Telegram, Twitter, Discord, GitHub, Email |
+
+---
+
+## Tech Stack
+
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animation:** Framer Motion
+- **Icons:** Lucide React
+- **Deployment:** Vercel
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Clone repo
+git clone https://github.com/wikaex/landing-page-airdrop.git
+cd landing-page-airdrop
+
+# Install dependencies
+npm install
+
+# Run dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+├── app/
+│   ├── layout.tsx          # Root layout + SEO metadata
+│   └── page.tsx            # Main page — section assembly
+├── components/
+│   ├── sections/
+│   │   ├── HeroSection.tsx
+│   │   ├── SupplySection.tsx
+│   │   ├── RoadmapSection.tsx
+│   │   ├── WhitepaperSection.tsx
+│   │   └── ContactSection.tsx
+│   ├── ui/
+│   │   ├── Header.tsx
+│   │   └── button.tsx
+│   └── whitepaper/
+│       ├── WhitepaperTabs.tsx
+│       ├── SectionCard.tsx
+│       └── content/
+│           ├── Overview.tsx
+│           ├── MonetaryPolicy.tsx
+│           ├── Architecture.tsx
+│           ├── Consensus.tsx
+│           ├── Transactions.tsx
+│           ├── Comparison.tsx
+│           └── Roadmap.tsx
+└── public/
+    ├── og-image.png        # OpenGraph image (1200×630)
+    ├── favicon.ico
+    └── hero/               # Hero character & vector assets
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Total Supply: 1,000,000,000 $WIKA (fixed)**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Community
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Platform | Link |
+|---|---|
+| Telegram | [t.me/wikaex](https://t.me/wikaex) |
+| Twitter / X | [x.com/wikaex](https://x.com/wikaex) |
+| Discord | [discord.gg/wikaex](https://discord.gg/wikaex) |
+| GitHub | [github.com/wikaex](https://github.com/wikaex) |
+| Email | hello@wikaex.com |
+
+---
+
+## License
+
+MIT © WikaEX

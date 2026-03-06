@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 const BASE_URL = "https://landing-page-airdrop.vercel.app";
-const OG_IMAGE = `${BASE_URL}/og-image.png`;
+const OG_IMAGE = `${BASE_URL}/og-Better.png`;
 
 export const viewport: Viewport = {
   width: "device-width",
