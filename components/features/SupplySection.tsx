@@ -6,8 +6,8 @@ export const SupplySection = () => {
   const distribution = [
     {
       label: "Airdrop & Community",
-      value: "50%",
-      percent: 50,
+      value: "10%",
+      percent: 10,
       color: "#22d3ee",
       glow: "rgba(34,211,238,0.35)",
       icon: "◈",
@@ -24,8 +24,8 @@ export const SupplySection = () => {
     },
     {
       label: "Ecosystem Incentives",
-      value: "15%",
-      percent: 15,
+      value: "30%",
+      percent: 30,
       color: "#34d399",
       glow: "rgba(52,211,153,0.35)",
       icon: "◇",
@@ -42,8 +42,8 @@ export const SupplySection = () => {
     },
     {
       label: "Liquidity Provider",
-      value: "5%",
-      percent: 5,
+      value: "30%",
+      percent: 30,
       color: "#fb923c",
       glow: "rgba(251,146,60,0.35)",
       icon: "○",
