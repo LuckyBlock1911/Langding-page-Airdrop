@@ -151,7 +151,7 @@ export const SupplySection = () => {
                   1,000,000,000
                 </p>
                 <p className="text-cyan-400 font-bold text-xl drop-shadow-[0_0_10px_rgba(34,211,238,0.4)]">
-                  $WIKA
+                  $WKX
                 </p>
               </div>
             </div>
