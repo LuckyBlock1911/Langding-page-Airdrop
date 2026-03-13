@@ -5,14 +5,14 @@ export function Footer() {
     product: [
       { label: "Whitepaper", href: "#whitepaper" },
       { label: "Roadmap", href: "#roadmap" },
-      { label: "GitHub", href: "https://github.com/wikaex" },
+      { label: "GitHub", href: "https://github.com/WikaEx-Exchange" },
       { label: "Status", href: "/status" },   
     ],
     community: [
-      { label: "Telegram", href: "https://t.me/wikaex" },
-      { label: "Twitter", href: "https://x.com/wikaex" },
-      { label: "Discord", href: "https://discord.gg/wikaex" },
-      { label: "Contact", href: "mailto:hello@wikaex.com" },
+      { label: "Telegram", href: "https://t.me/Wika_EX" },
+      { label: "Twitter", href: "https://x.com/Wika_EX" },
+      { label: "Discord", href: "https://discord.gg/q79YVuuKcK" },
+      { label: "Contact", href: "mailto:support@wikaex.com" },
     ],
     resources: [
       { label: "Documentation", href: "/docs" },
