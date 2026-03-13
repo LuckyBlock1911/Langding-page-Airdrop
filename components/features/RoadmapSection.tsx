@@ -31,14 +31,8 @@ const roadmapData = [
   },
   {
     phase: "Phase 5",
-    title: "Blockchain Development",
-    desc: "Begin development of a dedicated blockchain network where the exchange token evolves into the native coin used for transaction fees, staking, and governance.",
-    icon: <Layers className="w-5 h-5 text-cyan-400" />,
-  },
-  {
-    phase: "Phase 6",
-    title: "Native Chain Ecosystem",
-    desc: "Launch the blockchain mainnet and support decentralized applications, cross-chain services, and Web3 ecosystem growth around the native coin.",
+    title: "Native Blockchain",
+    desc: "Launch a dedicated blockchain where the token evolves into the native coin used for network fees, staking, and ecosystem applications.",
     icon: <Layers className="w-5 h-5 text-cyan-400" />,
   },
 ];
