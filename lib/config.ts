@@ -15,5 +15,5 @@ export const getBaseUrl = () => {
   }
 
   // 4. Absolute Fallback
-  return "https://landing-page-airdrop.vercel.app";
+  return "https://coin.wikaex.com/";
 };
