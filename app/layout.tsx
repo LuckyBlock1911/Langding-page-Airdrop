@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { AnalyticsProvider } from "@/components/AnalyticsProvider";
 import { getBaseUrl } from "@/lib/config";
+import { TurnstileGate } from "@/components/TurnstileGate";
 
 const BASE_URL = getBaseUrl();
 const OG_IMAGE = `${BASE_URL}/og-Better.png`;
@@ -96,7 +97,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <TurnstileGate>
+          {children}
+        </TurnstileGate>
         <AnalyticsProvider />
       </body>
     </html>
